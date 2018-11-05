@@ -1,0 +1,14 @@
+uuid: c8c3772b-7e3e-43cf-aaa9-ca516b2d90e9
+name: cktestproj
+mail: shane@codekarate.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
