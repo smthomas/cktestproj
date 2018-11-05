@@ -1,0 +1,11 @@
+uuid: addd5790-13aa-4caa-a37d-4bb964982d78
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: footer
+title: Footer
+content:
+  value: "<p>University of Mead</p>\r\n\r\n<p>123 Main Street</p>\r\n\r\n<p>Springfield, MA</p>\r\n\r\n<p>123-123-1233</p>\r\n"
+  format: basic_html

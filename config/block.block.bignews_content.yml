@@ -1,15 +1,15 @@
-uuid: a71d7b88-4504-4e04-9f1b-26cfcecdf328
+uuid: 68b8924a-4af4-4a9b-99e5-4ddcd17ec874
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bignews
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: bartik_content
-theme: bartik
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: bignews_content
+theme: bignews
 region: content
 weight: 0
 provider: null

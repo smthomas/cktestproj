@@ -1,0 +1,33 @@
+uuid: f7dfaba2-2239-4c00-bcbf-00b9220f6f81
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - ctools
+    - views
+  theme:
+    - bignews
+id: views_block__news_block_1
+theme: bignews
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:news-block_1'
+settings:
+  id: 'views_block:news-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

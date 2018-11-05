@@ -1,0 +1,22 @@
+uuid: 965fc76a-b07c-428b-9fdf-6faefab8356f
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.footer
+  module:
+    - simple_block
+  theme:
+    - bignews
+id: footer
+theme: bignews
+region: footer
+weight: 0
+provider: null
+plugin: 'simple_block:footer'
+settings:
+  id: 'simple_block:footer'
+  label: Footer
+  provider: simple_block
+  label_display: '0'
+visibility: {  }

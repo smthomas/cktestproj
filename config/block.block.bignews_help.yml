@@ -1,0 +1,22 @@
+uuid: 7375ae5d-916e-47ab-a080-4164fba750df
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bignews
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: bignews_help
+theme: bignews
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

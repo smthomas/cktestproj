@@ -1,0 +1,20 @@
+uuid: af44d40d-36a8-4878-bd71-86be97cefc8d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bignews
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: bignews_local_actions
+theme: bignews
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
