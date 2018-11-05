@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the bignews theme.
+
+bignews.settings:
+  type: theme_settings
+  label: 'Big News settings'

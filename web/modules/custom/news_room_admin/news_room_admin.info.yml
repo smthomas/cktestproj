@@ -1,0 +1,13 @@
+name: 'News Room Admin'
+type: module
+description: 'Admin functionality for a news website.'
+core: 8.x
+package: Custom
+mtime: 1541445383
+dependencies:
+  - node
+  - taxonomy
+  - text
+  - user
+version: null
+php: 5.5.9

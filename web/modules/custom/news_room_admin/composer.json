@@ -1,0 +1,14 @@
+{
+  "name": "drupal/news_room_admin",
+  "type": "drupal-module",
+  "description": "Admin functionality for a news website.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/news_room_admin",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/news_room_admin",
+    "source": "http://cgit.drupalcode.org/news_room_admin"
+  },
+  "require": { }
+}

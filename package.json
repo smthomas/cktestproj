@@ -1,0 +1,26 @@
+{
+  "name": "cktestproj",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/smthomas/cktestproj.svg?style=shield)](https://circleci.com/gh/smthomas/cktestproj) [![Dashboard cktestproj](https://img.shields.io/badge/dashboard-cktestproj-yellow.svg)](https://dashboard.pantheon.io/sites/935d3274-3dc1-423b-aae2-5e41980ee7b4#dev/code) [![Dev Site cktestproj](https://img.shields.io/badge/site-cktestproj-blue.svg)](http://dev-cktestproj.pantheonsite.io/)",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smthomas/cktestproj.git"
+  },
+  "author": "Shane Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smthomas/cktestproj/issues"
+  },
+  "homepage": "https://github.com/smthomas/cktestproj#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9"
+  }
+}

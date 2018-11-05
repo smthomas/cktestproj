@@ -1,0 +1,15 @@
+name: cktestproj
+recipe: pantheon
+config:
+  framework: drupal8
+  site: cktestproj
+  id: 935d3274-3dc1-423b-aae2-5e41980ee7b4
+  webroot: web
+  xdebug: true
+  drush: path:/app/vendor/bin/drush
+tooling:
+  drupal:
+    cmd:
+      - "/app/vendor/bin/drupal"
+      - "--root=/app/web"
+

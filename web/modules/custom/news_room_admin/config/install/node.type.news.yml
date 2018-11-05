@@ -1,0 +1,18 @@
+uuid: 7c6daf53-6f4c-4097-affe-e2e29714392a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: News
+type: news
+description: 'Add news articles'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false
